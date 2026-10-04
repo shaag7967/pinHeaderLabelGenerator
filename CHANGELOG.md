@@ -4,7 +4,7 @@ All notable changes to this project are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/) and the
 project uses [Semantic Versioning](https://semver.org/).
 
-## [0.1.0] - unreleased
+## [0.1.0] - 2026-10-04
 
 First packaged release, refactored from the original single-file script.
 
@@ -22,3 +22,5 @@ First packaged release, refactored from the original single-file script.
 - Code split into packages (model, layout, rendering, importers, GUI, CLI);
   the layout algorithm no longer depends on Qt.
 - Project files get a `format_version` field; older files still load.
+
+[0.1.0]: https://github.com/shaag7967/pinHeaderLabelGenerator/releases/tag/v0.1.0
