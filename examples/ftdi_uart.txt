@@ -1,0 +1,6 @@
+GND
+CTS
+VCC
+TXD
+RXD
+RTS

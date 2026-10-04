@@ -1,0 +1,5 @@
+left;left_color;right;right_color
+VCC;red;GND;black
+SDA;blue;SCL;blue
+INT;yellow;RESET;
+-;;LED;green

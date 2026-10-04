@@ -1,0 +1,224 @@
+{
+  "format_version": 1,
+  "title": "Raspberry Pi GPIO",
+  "rows": 20,
+  "cols": 2,
+  "side_mode": "right",
+  "pitch": 2.54,
+  "font_family": "",
+  "font_pt": 6.0,
+  "bold": false,
+  "gap_mm": 1.2,
+  "leaders": "auto",
+  "numbering": "zigzag",
+  "color_style": "fill",
+  "pin1_marker": false,
+  "outline": true,
+  "cut_frame": true,
+  "copies": 1,
+  "scale_x": 100.0,
+  "scale_y": 100.0,
+  "scale_bar": true,
+  "pins": [
+    [
+      {
+        "label": "3V3",
+        "color": "#f57c00"
+      },
+      {
+        "label": "5V",
+        "color": "#d32f2f"
+      }
+    ],
+    [
+      {
+        "label": "GPIO2 SDA",
+        "color": "#1565c0"
+      },
+      {
+        "label": "5V",
+        "color": "#d32f2f"
+      }
+    ],
+    [
+      {
+        "label": "GPIO3 SCL",
+        "color": "#1565c0"
+      },
+      {
+        "label": "GND",
+        "color": "#1b1b1b"
+      }
+    ],
+    [
+      {
+        "label": "GPIO4",
+        "color": ""
+      },
+      {
+        "label": "GPIO14 TXD",
+        "color": "#2e7d32"
+      }
+    ],
+    [
+      {
+        "label": "GND",
+        "color": "#1b1b1b"
+      },
+      {
+        "label": "GPIO15 RXD",
+        "color": "#2e7d32"
+      }
+    ],
+    [
+      {
+        "label": "GPIO17",
+        "color": ""
+      },
+      {
+        "label": "GPIO18",
+        "color": ""
+      }
+    ],
+    [
+      {
+        "label": "GPIO27",
+        "color": ""
+      },
+      {
+        "label": "GND",
+        "color": "#1b1b1b"
+      }
+    ],
+    [
+      {
+        "label": "GPIO22",
+        "color": ""
+      },
+      {
+        "label": "GPIO23",
+        "color": ""
+      }
+    ],
+    [
+      {
+        "label": "3V3",
+        "color": "#f57c00"
+      },
+      {
+        "label": "GPIO24",
+        "color": ""
+      }
+    ],
+    [
+      {
+        "label": "GPIO10 MOSI",
+        "color": "#7b1fa2"
+      },
+      {
+        "label": "GND",
+        "color": "#1b1b1b"
+      }
+    ],
+    [
+      {
+        "label": "GPIO9 MISO",
+        "color": "#7b1fa2"
+      },
+      {
+        "label": "GPIO25",
+        "color": ""
+      }
+    ],
+    [
+      {
+        "label": "GPIO11 SCLK",
+        "color": "#7b1fa2"
+      },
+      {
+        "label": "GPIO8 CE0",
+        "color": "#7b1fa2"
+      }
+    ],
+    [
+      {
+        "label": "GND",
+        "color": "#1b1b1b"
+      },
+      {
+        "label": "GPIO7 CE1",
+        "color": "#7b1fa2"
+      }
+    ],
+    [
+      {
+        "label": "GPIO0 ID_SD",
+        "color": "#808080"
+      },
+      {
+        "label": "GPIO1 ID_SC",
+        "color": "#808080"
+      }
+    ],
+    [
+      {
+        "label": "GPIO5",
+        "color": ""
+      },
+      {
+        "label": "GND",
+        "color": "#1b1b1b"
+      }
+    ],
+    [
+      {
+        "label": "GPIO6",
+        "color": ""
+      },
+      {
+        "label": "GPIO12",
+        "color": ""
+      }
+    ],
+    [
+      {
+        "label": "GPIO13",
+        "color": ""
+      },
+      {
+        "label": "GND",
+        "color": "#1b1b1b"
+      }
+    ],
+    [
+      {
+        "label": "GPIO19",
+        "color": ""
+      },
+      {
+        "label": "GPIO16",
+        "color": ""
+      }
+    ],
+    [
+      {
+        "label": "GPIO26",
+        "color": ""
+      },
+      {
+        "label": "GPIO20",
+        "color": ""
+      }
+    ],
+    [
+      {
+        "label": "GND",
+        "color": "#1b1b1b"
+      },
+      {
+        "label": "GPIO21",
+        "color": ""
+      }
+    ]
+  ]
+}

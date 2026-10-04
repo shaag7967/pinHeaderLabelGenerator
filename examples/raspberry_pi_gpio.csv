@@ -1,0 +1,41 @@
+pin,label,color
+1,3V3,orange
+2,5V,red
+3,GPIO2 SDA,blue
+4,5V,red
+5,GPIO3 SCL,blue
+6,GND,black
+7,GPIO4,
+8,GPIO14 TXD,green
+9,GND,black
+10,GPIO15 RXD,green
+11,GPIO17,
+12,GPIO18,
+13,GPIO27,
+14,GND,black
+15,GPIO22,
+16,GPIO23,
+17,3V3,orange
+18,GPIO24,
+19,GPIO10 MOSI,violet
+20,GND,black
+21,GPIO9 MISO,violet
+22,GPIO25,
+23,GPIO11 SCLK,violet
+24,GPIO8 CE0,violet
+25,GND,black
+26,GPIO7 CE1,violet
+27,GPIO0 ID_SD,gray
+28,GPIO1 ID_SC,gray
+29,GPIO5,
+30,GND,black
+31,GPIO6,
+32,GPIO12,
+33,GPIO13,
+34,GND,black
+35,GPIO19,
+36,GPIO16,
+37,GPIO26,
+38,GPIO20,
+39,GND,black
+40,GPIO21,
