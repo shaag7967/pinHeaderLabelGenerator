@@ -1,0 +1,173 @@
+{
+  "title": "",
+  "rows": 15,
+  "cols": 2,
+  "side_mode": "right",
+  "pitch": 2.54,
+  "font_family": "Montserrat SemiBold",
+  "font_pt": 8.0,
+  "bold": true,
+  "gap_mm": 0.9,
+  "leaders": "auto",
+  "color_style": "fill",
+  "numbering": "none",
+  "pin1_marker": true,
+  "outline": true,
+  "cut_frame": true,
+  "copies": 1,
+  "scale_x": 100.0,
+  "scale_y": 100.0,
+  "scale_bar": true,
+  "pins": [
+    [
+      {
+        "label": "",
+        "color": ""
+      },
+      {
+        "label": "NTC housing",
+        "color": "#d32f2f"
+      }
+    ],
+    [
+      {
+        "label": "",
+        "color": ""
+      },
+      {
+        "label": "NTC boiler",
+        "color": "#d32f2f"
+      }
+    ],
+    [
+      {
+        "label": "",
+        "color": ""
+      },
+      {
+        "label": "btn_power",
+        "color": "#1565c0"
+      }
+    ],
+    [
+      {
+        "label": "",
+        "color": ""
+      },
+      {
+        "label": "btn_plus",
+        "color": "#1565c0"
+      }
+    ],
+    [
+      {
+        "label": "pump_relay",
+        "color": "#7b4a1e"
+      },
+      {
+        "label": "btn_minus",
+        "color": "#1565c0"
+      }
+    ],
+    [
+      {
+        "label": "heater_en",
+        "color": "#7b4a1e"
+      },
+      {
+        "label": "",
+        "color": ""
+      }
+    ],
+    [
+      {
+        "label": "",
+        "color": ""
+      },
+      {
+        "label": "",
+        "color": ""
+      }
+    ],
+    [
+      {
+        "label": "",
+        "color": ""
+      },
+      {
+        "label": "pump_switch",
+        "color": "#808080"
+      }
+    ],
+    [
+      {
+        "label": "GND",
+        "color": "#1b1b1b"
+      },
+      {
+        "label": "steam_switch",
+        "color": "#808080"
+      }
+    ],
+    [
+      {
+        "label": "GND",
+        "color": "#1b1b1b"
+      },
+      {
+        "label": "lever",
+        "color": "#808080"
+      }
+    ],
+    [
+      {
+        "label": "GND",
+        "color": "#1b1b1b"
+      },
+      {
+        "label": "dbg0",
+        "color": "#f57c00"
+      }
+    ],
+    [
+      {
+        "label": "GND",
+        "color": "#1b1b1b"
+      },
+      {
+        "label": "dbg1",
+        "color": "#f57c00"
+      }
+    ],
+    [
+      {
+        "label": "",
+        "color": ""
+      },
+      {
+        "label": "dbg2",
+        "color": "#f57c00"
+      }
+    ],
+    [
+      {
+        "label": "",
+        "color": ""
+      },
+      {
+        "label": "dbg3",
+        "color": "#f57c00"
+      }
+    ],
+    [
+      {
+        "label": "",
+        "color": ""
+      },
+      {
+        "label": "dbg4",
+        "color": "#f57c00"
+      }
+    ]
+  ]
+}
