@@ -348,23 +348,19 @@ so no API token has to be stored in GitHub.
 
 One-time setup:
 
-1. On [pypi.org](https://pypi.org/manage/account/publishing/) (and on
-   [test.pypi.org](https://test.pypi.org/manage/account/publishing/)) add a
+1. On [pypi.org](https://pypi.org/manage/account/publishing/) add a
    *pending publisher*: project `pin-header-label-generator`, owner
    `shaag7967`, repository `pinHeaderLabelGenerator`, workflow `publish.yml`,
-   environment `pypi` (or `testpypi`).
+   environment `pypi`.
 2. In the GitHub repository go to *Settings → Environments* and create the
-   environments `pypi` and `testpypi`. Requiring a manual approval for
-   `pypi` is a good idea.
+   environment `pypi`. Recommended: under *Deployment branches and tags*
+   allow only tags matching `v*`. No secrets are needed.
 
 Releasing a version:
 
 1. Update `__version__` in `src/pin_header_label/__init__.py` and
    `CHANGELOG.md`.
-2. Optional: *Actions → Publish → Run workflow* with target `testpypi`, then
-   test with
-   `pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ pin-header-label-generator`.
-3. Create a GitHub release with the tag `v<version>` (for example `v0.1.0`).
+2. Create a GitHub release with the tag `v<version>` (for example `v0.1.0`).
    The workflow checks that the tag matches the package version, builds the
    sdist and wheel and uploads them to PyPI.
 

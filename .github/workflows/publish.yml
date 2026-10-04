@@ -1,7 +1,5 @@
-# Publishes the package with PyPI "Trusted Publishing" (no API token needed).
-#
-# * Publishing a GitHub release uploads to PyPI.
-# * Running the workflow manually ("Run workflow") uploads to TestPyPI by default.
+# Publishes the package to PyPI with "Trusted Publishing" (no API token needed)
+# whenever a GitHub release is published.
 #
 # One-time setup is described in the README ("Publishing to PyPI").
 
@@ -10,13 +8,6 @@ name: Publish
 on:
   release:
     types: [published]
-  workflow_dispatch:
-    inputs:
-      target:
-        description: "Package index"
-        type: choice
-        options: [testpypi, pypi]
-        default: testpypi
 
 permissions:
   contents: read
@@ -31,7 +22,6 @@ jobs:
         with:
           python-version: "3.13"
       - name: Check that the release tag matches the package version
-        if: github.event_name == 'release'
         run: |
           version=$(python -c "import re, pathlib; print(re.search(r'__version__ = \"(.+?)\"', pathlib.Path('src/pin_header_label/__init__.py').read_text()).group(1))")
           tag="${GITHUB_REF_NAME#v}"
@@ -48,29 +38,9 @@ jobs:
           path: dist/
           if-no-files-found: error
 
-  publish-testpypi:
-    name: Publish to TestPyPI
-    needs: build
-    if: github.event_name == 'workflow_dispatch' && inputs.target == 'testpypi'
-    runs-on: ubuntu-latest
-    environment:
-      name: testpypi
-      url: https://test.pypi.org/p/pin-header-label-generator
-    permissions:
-      id-token: write
-    steps:
-      - uses: actions/download-artifact@v4
-        with:
-          name: dist
-          path: dist/
-      - uses: pypa/gh-action-pypi-publish@release/v1
-        with:
-          repository-url: https://test.pypi.org/legacy/
-
   publish-pypi:
     name: Publish to PyPI
     needs: build
-    if: github.event_name == 'release' || (github.event_name == 'workflow_dispatch' && inputs.target == 'pypi')
     runs-on: ubuntu-latest
     environment:
       name: pypi

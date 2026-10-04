@@ -16,7 +16,7 @@ First packaged release, refactored from the original single-file script.
   by pin number or row by row, with optional colors.
 - `pinlabel import` creates a project file from a pin list.
 - `pinlabel export --label-only` writes PNG/SVG files of the label alone.
-- Unit tests, GitHub Actions for CI and for publishing to (Test)PyPI.
+- Unit tests, GitHub Actions for CI and for publishing to PyPI.
 
 ### Changed
 - Code split into packages (model, layout, rendering, importers, GUI, CLI);
